@@ -399,6 +399,7 @@ p {
 }
 
 @media (min-width: 768px) {
+  /*@media (min-width: 500px) {*/
   .lead {
     font-size: 21px;
   }
@@ -3592,7 +3593,8 @@ input[type="button"].btn-block {
   margin-bottom: 1px;
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {*/
+  @media (min-width: 500px) {
   .navbar-right .dropdown-menu {
     right: 0;
     left: auto;
